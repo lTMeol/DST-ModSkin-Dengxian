@@ -1,0 +1,4 @@
+After downloading and extracting the files, install them into the game's mod folder:
+Steam\steamapps\common\Don't Starve Together\mods
+Next, go to the Workshop and download the Glassic API mod.
+When creating a world, make sure to enable both mods.
