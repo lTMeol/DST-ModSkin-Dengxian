@@ -20,23 +20,29 @@ AddSimPostInit(function()
             xd_gj = {"xd_gj_skin1"},
             xd_ftys = {"xd_ftys_skin1"},
             xd_sudaji = {"xd_sudaji_skin1", "xd_sudaji_skin2"},
+            xd_hantianzun = {"xd_hantianzun_skin1"}, 
         })
 
-        if GLOBAL.PREFAB_SKINS["xd_sudaji"] then
-            local new_skins = {"xd_sudaji_skin1", "xd_sudaji_skin2"} 
-            for _, skinname in ipairs(new_skins) do
-                local found = false
-                for _, existing in ipairs(GLOBAL.PREFAB_SKINS["xd_sudaji"]) do
-                    if existing == skinname then found = true break end
-                end
-                if not found then
-                    table.insert(GLOBAL.PREFAB_SKINS["xd_sudaji"], skinname)
+        local function RegisterSkinsToPrefab(prefab, skins)
+            if GLOBAL.PREFAB_SKINS[prefab] then
+                for _, skinname in ipairs(skins) do
+                    local found = false
+                    for _, existing in ipairs(GLOBAL.PREFAB_SKINS[prefab]) do
+                        if existing == skinname then found = true break end
+                    end
+                    if not found then
+                        table.insert(GLOBAL.PREFAB_SKINS[prefab], skinname)
+                    end
                 end
             end
         end
+
+        RegisterSkinsToPrefab("xd_sudaji", {"xd_sudaji_skin1", "xd_sudaji_skin2"})
+        RegisterSkinsToPrefab("xd_hantianzun", {"xd_hantianzun_skin1"})
     end 
 end) 
 
+-- Các skin cũ
 GLOBAL.STRINGS.SKIN_NAMES.xd_ylxq_skin1 = "Đào Hoa Linh Cảnh"
 GLOBAL.STRINGS.SKIN_NAMES.xd_ylxc_skin1 = "Thanh Hà"
 GLOBAL.STRINGS.SKIN_NAMES.xd_mg_skin1 = "Hũ mật"
@@ -55,3 +61,8 @@ GLOBAL.STRINGS.SKIN_QUOTES.xd_sudaji_skin1 = "\"Hồ quang lay động giữa m�
 GLOBAL.STRINGS.SKIN_NAMES.xd_sudaji_skin2 = "Tiên Hồoooooo"
 GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_sudaji_skin2 = "Một bộ y phục mang vẻ đẹp hồ tiên thần bí."
 GLOBAL.STRINGS.SKIN_QUOTES.xd_sudaji_skin2 = "\"Hồ quang lay động giữa màn sương lạnh.\""
+
+-----------------------------------------------------------
+GLOBAL.STRINGS.SKIN_NAMES.xd_hantianzun_skin1 = "Tử Vân Ma Quân"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_hantianzun_skin1 = "Ngoại hình Tử Vân Ma Quân hóa ra từ Huyễn Hình Quyết."
+GLOBAL.STRINGS.SKIN_QUOTES.xd_hantianzun_skin1 = "\"Thật giả khó phân, một niệm huyễn hình.\""
