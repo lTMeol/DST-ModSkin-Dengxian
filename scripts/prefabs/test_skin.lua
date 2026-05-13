@@ -130,6 +130,7 @@ table.insert(prefabs, CreatePrefabSkin("xd_ftys_skin1", { -- The ID of our skin
 
 }))
 
+--skin
 table.insert(prefabs, CreatePrefabSkin("xd_sudaji_skin1", {
 
     assets = {
@@ -183,6 +184,62 @@ table.insert(prefabs, CreatePrefabSkin("xd_sudaji_skin2", {
         "BASE",
         "XD_SUDAJI",
         "SKIN2",
+    },
+}))
+
+table.insert(prefabs, CreatePrefabSkin("xd_sudaji_skin3", {
+
+    assets = {
+        Asset("ANIM", "anim/xd_sudaji_skin3.zip"),
+    },
+
+    skins = {
+        normal_skin = "xd_sudaji_skin3",
+        ghost_skin = "ghost_xd_sudaji_build",
+    },
+
+    base_prefab = "xd_sudaji",
+    build_name_override = "xd_sudaji_skin3",
+
+    torso_untuck_builds = {
+        "xd_sudaji_skin3",
+    },
+
+    type = "base",
+    rarity = "ModMade",
+
+    skin_tags = {
+        "BASE",
+        "XD_SUDAJI",
+        "SKIN3",
+    },
+}))
+
+table.insert(prefabs, CreatePrefabSkin("xd_sudaji_skin4", {
+
+    assets = {
+        Asset("ANIM", "anim/xd_sudaji_skin4.zip"),
+    },
+
+    skins = {
+        normal_skin = "xd_sudaji_skin4",
+        ghost_skin = "ghost_xd_sudaji_build",
+    },
+
+    base_prefab = "xd_sudaji",
+    build_name_override = "xd_sudaji_skin4",
+
+    torso_untuck_builds = {
+        "xd_sudaji_skin4",
+    },
+
+    type = "base",
+    rarity = "ModMade",
+
+    skin_tags = {
+        "BASE",
+        "XD_SUDAJI",
+        "SKIN4",
     },
 }))
 

@@ -19,7 +19,7 @@ AddSimPostInit(function()
             xd_hhlmz = {"xd_hhlmz_skin1","xd_hhlmz_skin2"},
             xd_gj = {"xd_gj_skin1"},
             xd_ftys = {"xd_ftys_skin1"},
-            xd_sudaji = {"xd_sudaji_skin1", "xd_sudaji_skin2"},
+            xd_sudaji = {"xd_sudaji_skin1", "xd_sudaji_skin2", "xd_sudaji_skin3", "xd_sudaji_skin4"},
             xd_hantianzun = {"xd_hantianzun_skin1"}, 
         })
 
@@ -37,7 +37,7 @@ AddSimPostInit(function()
             end
         end
 
-        RegisterSkinsToPrefab("xd_sudaji", {"xd_sudaji_skin1", "xd_sudaji_skin2"})
+        RegisterSkinsToPrefab("xd_sudaji", {"xd_sudaji_skin1", "xd_sudaji_skin2", "xd_sudaji_skin3", "xd_sudaji_skin4"})
         RegisterSkinsToPrefab("xd_hantianzun", {"xd_hantianzun_skin1"})
     end 
 end) 
@@ -54,13 +54,21 @@ GLOBAL.STRINGS.SKIN_NAMES.xd_hhlmz_skin2 = "Bàn cưới"
 GLOBAL.STRINGS.SKIN_NAMES.xd_gj_skin1 = "Giếng thủy cung"
 GLOBAL.STRINGS.SKIN_NAMES.xd_ftys_skin1 = "Chuồng dê"
 
-GLOBAL.STRINGS.SKIN_NAMES.xd_sudaji_skin1 = "Tiên Hồ"
-GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_sudaji_skin1 = "Một bộ y phục mang vẻ đẹp hồ tiên thần bí."
-GLOBAL.STRINGS.SKIN_QUOTES.xd_sudaji_skin1 = "\"Hồ quang lay động giữa màn sương lạnh.\""
+GLOBAL.STRINGS.SKIN_NAMES.xd_sudaji_skin1 = "Thu Nhật Tư Ngữ"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_sudaji_skin1 = "Lá phong ngàn nhánh nối muôn cành, cầu sông khuất bóng cánh buồm muộn."
+GLOBAL.STRINGS.SKIN_QUOTES.xd_sudaji_skin1 = "\"Thiếp thân thế này, liệu có khiến người cảm thấy một chút lạnh lẽo?\""
 
-GLOBAL.STRINGS.SKIN_NAMES.xd_sudaji_skin2 = "Tiên Hồoooooo"
-GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_sudaji_skin2 = "Một bộ y phục mang vẻ đẹp hồ tiên thần bí."
-GLOBAL.STRINGS.SKIN_QUOTES.xd_sudaji_skin2 = "\"Hồ quang lay động giữa màn sương lạnh.\""
+GLOBAL.STRINGS.SKIN_NAMES.xd_sudaji_skin2 = "Quốc Sắc Thiên Hương"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_sudaji_skin2 = "Chiếu thư phượng trắng ban chiều muộn, sáu cung phấn điểm xuân sắp tàn."
+GLOBAL.STRINGS.SKIN_QUOTES.xd_sudaji_skin2 = "\"Để thiếp thân múa hát một khúc hầu Đại vương.\""
+
+GLOBAL.STRINGS.SKIN_NAMES.xd_sudaji_skin3 = "Tình Sơn Tích Thúy"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_sudaji_skin3 = "Núi biếc nắng soi, nước nhuộm lam, thuyền chài tụ tán dăm ba chiếc."
+GLOBAL.STRINGS.SKIN_QUOTES.xd_sudaji_skin3 = "\"Thiếp thân làm vậy, phải chăng có chút khắc nghiệt?\""
+
+GLOBAL.STRINGS.SKIN_NAMES.xd_sudaji_skin4 = "Văn Thành Công Chúa"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_sudaji_skin4 = "Một bộ y phục mang vẻ đẹp hồ tiên thần bí."
+GLOBAL.STRINGS.SKIN_QUOTES.xd_sudaji_skin4 = "\"Thiếp thân không muốn dấn thân vào cục diện này nữa.\""
 
 -----------------------------------------------------------
 GLOBAL.STRINGS.SKIN_NAMES.xd_hantianzun_skin1 = "Tử Vân Ma Quân"
