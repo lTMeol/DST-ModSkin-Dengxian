@@ -1,7 +1,7 @@
 name = "Mod skin"
-description = ""
+description = "Hiện tại đang lỗi item hồ lô đựng đan dược và hóa kiếp tiêm mãng"
 author = "TMeo"
-version = "1.0.0" 
+version = "2.0.1" 
 
 -- This is the URL name of the mod's thread on the forum; the part after the ? and before the first & in the url
 forumthread = ""
