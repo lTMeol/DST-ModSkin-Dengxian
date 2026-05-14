@@ -21,6 +21,8 @@ AddSimPostInit(function()
             xd_ftys = {"xd_ftys_skin1"},
             xd_sudaji = {"xd_sudaji_skin1", "xd_sudaji_skin2", "xd_sudaji_skin3", "xd_sudaji_skin4"},
             xd_hantianzun = {"xd_hantianzun_skin1"}, 
+            xd_wangmazi = {"xd_wangmazi_skin1", "xd_wangmazi_skin2"}, 
+
         })
 
         local function RegisterSkinsToPrefab(prefab, skins)
@@ -39,6 +41,7 @@ AddSimPostInit(function()
 
         RegisterSkinsToPrefab("xd_sudaji", {"xd_sudaji_skin1", "xd_sudaji_skin2", "xd_sudaji_skin3", "xd_sudaji_skin4"})
         RegisterSkinsToPrefab("xd_hantianzun", {"xd_hantianzun_skin1"})
+        RegisterSkinsToPrefab("xd_wangmazi", {"xd_wangmazi_skin1", "xd_wangmazi_skin2"})
     end 
 end) 
 
@@ -74,3 +77,11 @@ GLOBAL.STRINGS.SKIN_QUOTES.xd_sudaji_skin4 = "\"Thiếp thân không muốn dấ
 GLOBAL.STRINGS.SKIN_NAMES.xd_hantianzun_skin1 = "Tử Vân Ma Quân"
 GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_hantianzun_skin1 = "Ngoại hình Tử Vân Ma Quân hóa ra từ Huyễn Hình Quyết."
 GLOBAL.STRINGS.SKIN_QUOTES.xd_hantianzun_skin1 = "\"Thật giả khó phân, một niệm huyễn hình.\""
+
+GLOBAL.STRINGS.SKIN_NAMES.xd_wangmazi_skin1 = "Thân Cổ Thần"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_wangmazi_skin1 = "Ma trước một lạy ba ngàn năm, ngoảnh lại hồng trần chẳng làm tiên."
+GLOBAL.STRINGS.SKIN_QUOTES.xd_wangmazi_skin1 = "\"Người không phạm ta, ta không phạm người!\""
+
+GLOBAL.STRINGS.SKIN_NAMES.xd_wangmazi_skin2 = "Thiên Hành Ma Hài"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_wangmazi_skin2 = "Pháp tắc tận cùng, hư vô không một vật."
+GLOBAL.STRINGS.SKIN_QUOTES.xd_wangmazi_skin2 = "\"Đạo của ta chính là kẽ hở duy nhất của Thiên Đạo.\""
