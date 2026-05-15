@@ -10,6 +10,7 @@ GLOBAL.STRINGS.SKIN_NAMES.xd_hhlmz_skin1 = "Bàn hoa"
 GLOBAL.STRINGS.SKIN_NAMES.xd_hhlmz_skin2 = "Bàn cưới"
 GLOBAL.STRINGS.SKIN_NAMES.xd_gj_skin1 = "Giếng thủy cung"
 GLOBAL.STRINGS.SKIN_NAMES.xd_ftys_skin1 = "Chuồng dê"
+-- GLOBAL.STRINGS.SKIN_NAMES.xd_luoshen_huaxia_skin1 = "Skin1"
 
 -----------------------------------------------------------
 
@@ -86,3 +87,9 @@ GLOBAL.STRINGS.SKIN_QUOTES.xd_wukong_skin1 = "\"Ta muốn trời này không th�
 GLOBAL.STRINGS.SKIN_NAMES.xd_wukong_skin2 = "Tôn Hành Giả"
 GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_wukong_skin2 = "Hàng yêu diệt quái Tôn Hành Giả, hộ pháp Tây Thiên thỉnh Thánh Kinh."
 GLOBAL.STRINGS.SKIN_QUOTES.xd_wukong_skin2 = "\"Đứng lại! Yêu quái!\""
+
+-----------------------------------------------------------
+
+GLOBAL.STRINGS.SKIN_NAMES.xd_luoshen_skin1 = "Mocha Sakura"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_luoshen_skin1 = "Giải trừ phong ấn!"
+GLOBAL.STRINGS.SKIN_QUOTES.xd_luoshen_skin1 = "\"Tuyệt đối không có vấn đề gì!\""

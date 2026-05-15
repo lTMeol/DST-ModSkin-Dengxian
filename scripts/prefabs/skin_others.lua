@@ -130,4 +130,17 @@ table.insert(prefabs, CreatePrefabSkin("xd_ftys_skin1", { -- The ID of our skin
 
 }))
 
+-- table.insert(prefabs, CreatePrefabSkin("xd_luoshen_huaxia_skin1", { -- The ID of our skin
+--     assets = { -- Our assets
+--     Asset("ANIM", "anim/xd_luoshen_huaxia_skin1.zip") -- Our animation for when the item is equipped, this is optional but most items will have this
+--     },
+--     base_prefab = "xd_luoshen_huaxia", -- The prefab of the item/structure we're adding a skin for
+--     build_name_override = "xd_luoshen_huaxia_skin1",
+--     init_fn = GlassicAPI.BasicInitFn,
+
+--     type = "item", -- We are now creating a modded item/structure! Thus our skin's type is "item" (Note: there aren't different types for modded "structures", to the game there is no difference between skinning an item, a structure, or even a mob! (Yes you could create mob skins if you wanted!)
+--     rarity = "Reward",
+
+-- }))
+
 return unpack(prefabs)
