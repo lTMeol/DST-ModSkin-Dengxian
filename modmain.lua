@@ -6,7 +6,10 @@ PrefabFiles = {
     "skin_sudaji",    
     "skin_hantianzun", 
     "skin_wangmazi",   
-    "skin_others",     
+    "skin_others", 
+    "skin_jingwei",
+    "skin_longtaizi",
+    "skin_wukong",    
 }
 
 Assets = {
@@ -28,9 +31,13 @@ AddSimPostInit(function()
             xd_hhlmz = {"xd_hhlmz_skin1","xd_hhlmz_skin2"},
             xd_gj = {"xd_gj_skin1"},
             xd_ftys = {"xd_ftys_skin1"},
+
             xd_sudaji = {"xd_sudaji_skin1", "xd_sudaji_skin2", "xd_sudaji_skin3", "xd_sudaji_skin4"},
-            xd_hantianzun = {"xd_hantianzun_skin1"}, 
+            xd_hantianzun = {"xd_hantianzun_skin1", "xd_hantianzun_skin2", "xd_hantianzun_skin3"}, 
             xd_wangmazi = {"xd_wangmazi_skin1", "xd_wangmazi_skin2"}, 
+            xd_jingwei = {"xd_jingwei_skin1", "xd_jingwei_skin2", "xd_jingwei_skin3"},
+            xd_longtaizi = {"xd_longtaizi_skin1", "xd_longtaizi_skin2"}, 
+            xd_wukong = {"xd_wukong_skin1", "xd_wukong_skin2"},
         })
 
         local function RegisterSkinsToPrefab(prefab, skins)
@@ -48,7 +55,10 @@ AddSimPostInit(function()
         end
 
         RegisterSkinsToPrefab("xd_sudaji", {"xd_sudaji_skin1", "xd_sudaji_skin2", "xd_sudaji_skin3", "xd_sudaji_skin4"})
-        RegisterSkinsToPrefab("xd_hantianzun", {"xd_hantianzun_skin1"})
+        RegisterSkinsToPrefab("xd_hantianzun", {"xd_hantianzun_skin1", "xd_hantianzun_skin2", "xd_hantianzun_skin3"})
         RegisterSkinsToPrefab("xd_wangmazi", {"xd_wangmazi_skin1", "xd_wangmazi_skin2"})
+        RegisterSkinsToPrefab("xd_longtaizi", {"xd_longtaizi_skin1", "xd_longtaizi_skin2"})
+        RegisterSkinsToPrefab("xd_wukong", {"xd_wukong_skin1", "xd_wukong_skin2"})
+        RegisterSkinsToPrefab("xd_jingwei", {"xd_jingwei_skin1", "xd_jingwei_skin2", "xd_jingwei_skin3"})
     end 
 end)

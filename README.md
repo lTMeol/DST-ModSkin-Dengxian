@@ -63,9 +63,8 @@ Launch the game -> Go to **Mods** -> Find **【登仙】 Mod Skin Pack** and tog
 # 🌀 【登仙】 (ĐĂNG TIÊN) - GÓI SKIN ĐỘC QUYỀN
 <p align="center">
   <a href="https://github.com/lTMeol/DST-ModSkin-Dengxian/releases">
-    <img src="https://img.shields.io/badge/TẢI_VỀ-BẢN_MỚI_NHẤT-brightgreen?style=for-the-badge&logo=github" alt="Download">
+    <img src="https://img.shields.io/badge/TẢI_VỀ-BẢN_MỚI_NHẤT-brightgreen?style=for-the-badge&logo=github" width="300" alt="Tải về">
   </a>
-  <img src="https://img.shields.io/badge/Phiên_Bản-v1.0-blue?style=for-the-badge" alt="Version">
 </p>
 
 ## 📖 Giới thiệu
