@@ -93,3 +93,19 @@ GLOBAL.STRINGS.SKIN_QUOTES.xd_wukong_skin2 = "\"Đứng lại! Yêu quái!\""
 GLOBAL.STRINGS.SKIN_NAMES.xd_luoshen_skin1 = "Mocha Sakura"
 GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_luoshen_skin1 = "Giải trừ phong ấn!"
 GLOBAL.STRINGS.SKIN_QUOTES.xd_luoshen_skin1 = "\"Tuyệt đối không có vấn đề gì!\""
+
+-----------------------------------------------------------
+
+GLOBAL.STRINGS.SKIN_NAMES.xd_yunxiao_skin1 = "Thủy Thủ Mặt Trăng"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_yunxiao_skin1 = "Tiếng chuông dưới trăng, thời khắc biến thân!"
+GLOBAL.STRINGS.SKIN_QUOTES.xd_yunxiao_skin1 = "\"Nhân danh Mặt Trăng, tiêu diệt ngươi!\""
+
+GLOBAL.STRINGS.SKIN_NAMES.xd_yunxiao_skin2 = "Tử Vi Triều Dương"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_yunxiao_skin2 = "Nắng sớm rực rỡ phủ mái hiên, tuyết hồng rơi nhẹ điểm thềm cát."
+GLOBAL.STRINGS.SKIN_QUOTES.xd_yunxiao_skin2 = "\"Không vì vật mà vui, chẳng vì mình mà buồn.\""
+
+-----------------------------------------------------------
+
+GLOBAL.STRINGS.SKIN_NAMES.xd_shiji_skin1 = "Cửu U Huyền Hà"
+GLOBAL.STRINGS.SKIN_DESCRIPTIONS.xd_shiji_skin1 = "Dùng hào quang rực rỡ làm loạn tinh tú."
+GLOBAL.STRINGS.SKIN_QUOTES.xd_shiji_skin1 = "\"Bản tọa cũng không muốn dồn việc vào đường cùng.\""

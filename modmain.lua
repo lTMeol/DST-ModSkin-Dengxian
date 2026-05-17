@@ -11,6 +11,8 @@ PrefabFiles = {
     "skin_longtaizi",
     "skin_wukong",  
     "skin_luoshen",  
+    "skin_yunxiao",
+    "skin_shiji",
 }
 
 Assets = {
@@ -41,6 +43,11 @@ AddSimPostInit(function()
             xd_wukong = {"xd_wukong_skin1", "xd_wukong_skin2"},
             xd_luoshen = {"xd_luoshen_skin1"},
             xd_luoshen_death = {"xd_luoshen_skin1_death"},
+            xd_yunxiao = {"xd_yunxiao_skin1", "xd_yunxiao_skin2"},
+            xd_bixiao = {"xd_bixiao_skin1", "xd_bixiao_skin2"},
+            xd_qiongxiao = {"xd_qiongxiao_skin1", "xd_qiongxiao_skin2"},
+            xd_shiji = {"xd_shiji_skin1"},
+            xd_shiji_kl = {"xd_bjms_kl_skin1"},
             -- xd_luoshen_huaxia = {"xd_luoshen_huaxia_skin1"}
         })
 
@@ -66,5 +73,10 @@ AddSimPostInit(function()
         RegisterSkinsToPrefab("xd_jingwei", {"xd_jingwei_skin1", "xd_jingwei_skin2", "xd_jingwei_skin3"})
         RegisterSkinsToPrefab("xd_luoshen", {"xd_luoshen_skin1"})
         RegisterSkinsToPrefab("xd_luoshen_death", {"xd_luoshen_skin1_death"})
+        RegisterSkinsToPrefab("xd_yunxiao", {"xd_yunxiao_skin1", "xd_yunxiao_skin2"})
+        RegisterSkinsToPrefab("xd_bixiao", {"xd_bixiao_skin1", "xd_bixiao_skin2"})
+        RegisterSkinsToPrefab("xd_qiongxiao", {"xd_qiongxiao_skin1", "xd_qiongxiao_skin2"})
+        RegisterSkinsToPrefab("xd_shiji", {"xd_shiji_skin1"})
+        RegisterSkinsToPrefab("xd_shiji_kl", {"xd_bjms_kl_skin1"})
     end 
 end)
