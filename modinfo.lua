@@ -1,19 +1,12 @@
 name = "Mod skin"
 description =
-"KHÔNG share mod lên group/nhóm tránh ăn gậy từ Klei!\n" ..
-"Mọi người có thể share cho bạn bè nhé.\n" ..
-"Nếu có nguy cơ bị ban, mình sẽ khóa mod.\n" ..
-"Bản mới sẽ luôn tự động cập nhật tại link mod cũ.\n\n" ..
-"[HIỆN TẠI]\n" ..
-"- Mở hầu hết skin (trừ Tam Tiêu & Thạch Cơ).\n" ..
-"- Skin công trình: Mọi người tự khám phá nhé.\n\n" ..
-"[LỖI]\n" ..
-"- Hồ lô đựng đan & V.phẩm thăng cấp đan đang lỗi xíu.\n\n" ..
-"Xong Đăng Tiên sẽ có thể thêm skin mod khác. Gợi ý mod đẹp cho mình nhé!\n" ..
+"Mọi thông tin update đều sẽ được cập nhật trong phần giới thiệu của mod trên steam \n\n" ..
+"Mọi người hãy lên đọc để biết thêm thông tin về bản mod này.\n" ..
+"Mọi người có thể gợi ý cho mình các mod có art đẹp để mình thêm vào nhé\n" ..
+"Nếu thấy hay hãy cho mình 1 like nhé. Cảm ơn mọi người\n" ..
 "Donate: Techcombank - 19037719045016 - PHAM VAN THINH"
-
 author = "TMeo"
-version = "4.0"
+version = "5.0"
 
 -- This is the URL name of the mod's thread on the forum; the part after the ? and before the first & in the url
 forumthread = ""

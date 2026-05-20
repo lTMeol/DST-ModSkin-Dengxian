@@ -11,6 +11,11 @@ GLOBAL.STRINGS.SKIN_NAMES.xd_hhlmz_skin2 = "Bàn cưới"
 GLOBAL.STRINGS.SKIN_NAMES.xd_gj_skin1 = "Giếng thủy cung"
 GLOBAL.STRINGS.SKIN_NAMES.xd_ftys_skin1 = "Chuồng dê"
 -- GLOBAL.STRINGS.SKIN_NAMES.xd_luoshen_huaxia_skin1 = "Skin1"
+GLOBAL.STRINGS.SKIN_NAMES.xd_wsjx_skin1 = "Hộp kiếm thủy cung"
+GLOBAL.STRINGS.SKIN_NAMES.xd_yhsyz_skin1 = "Hoa"
+GLOBAL.STRINGS.SKIN_NAMES.xd_jgb_skin1 = "1"
+GLOBAL.STRINGS.SKIN_NAMES.xd_jgb_skin2 = "1"
+GLOBAL.STRINGS.SKIN_NAMES.xd_jgb_skin0 = "1"
 
 -----------------------------------------------------------
 

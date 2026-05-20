@@ -20,6 +20,8 @@ Assets = {
     Asset("IMAGE", "images/bieutuong.tex"),
 }
 
+RegisterInventoryItemAtlas("images/bieutuong.xml", "xd_yhsyz_skin1.tex")
+
 AddSimPostInit(function()
     if GlassicAPI then
         GlassicAPI.RegisterItemAtlas("bieutuong.xml")
@@ -34,6 +36,9 @@ AddSimPostInit(function()
             xd_hhlmz = {"xd_hhlmz_skin1","xd_hhlmz_skin2"},
             xd_gj = {"xd_gj_skin1"},
             xd_ftys = {"xd_ftys_skin1"},
+            xd_wsjx = {"xd_wsjx_skin1"},
+            xd_yhsyz = {"xd_yhsyz_skin1"},
+            xd_jgb = {"xd_jgb_skin1", "xd_jgb_skin2", "xd_jgb_skin0"},
 
             xd_sudaji = {"xd_sudaji_skin1", "xd_sudaji_skin2", "xd_sudaji_skin3", "xd_sudaji_skin4"},
             xd_hantianzun = {"xd_hantianzun_skin1", "xd_hantianzun_skin2", "xd_hantianzun_skin3"}, 
@@ -48,7 +53,6 @@ AddSimPostInit(function()
             xd_qiongxiao = {"xd_qiongxiao_skin1", "xd_qiongxiao_skin2"},
             xd_shiji = {"xd_shiji_skin1"},
             xd_shiji_kl = {"xd_bjms_kl_skin1"},
-            -- xd_luoshen_huaxia = {"xd_luoshen_huaxia_skin1"}
         })
 
         local function RegisterSkinsToPrefab(prefab, skins)
@@ -65,6 +69,7 @@ AddSimPostInit(function()
             end
         end
 
+        -- Đăng ký skin cho nhân vật
         RegisterSkinsToPrefab("xd_sudaji", {"xd_sudaji_skin1", "xd_sudaji_skin2", "xd_sudaji_skin3", "xd_sudaji_skin4"})
         RegisterSkinsToPrefab("xd_hantianzun", {"xd_hantianzun_skin1", "xd_hantianzun_skin2", "xd_hantianzun_skin3"})
         RegisterSkinsToPrefab("xd_wangmazi", {"xd_wangmazi_skin1", "xd_wangmazi_skin2"})
@@ -78,5 +83,7 @@ AddSimPostInit(function()
         RegisterSkinsToPrefab("xd_qiongxiao", {"xd_qiongxiao_skin1", "xd_qiongxiao_skin2"})
         RegisterSkinsToPrefab("xd_shiji", {"xd_shiji_skin1"})
         RegisterSkinsToPrefab("xd_shiji_kl", {"xd_bjms_kl_skin1"})
+
+        
     end 
 end)
